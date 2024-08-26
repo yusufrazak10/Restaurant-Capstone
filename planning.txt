@@ -1,0 +1,42 @@
+Customer Class {
+    Create attributes
+    Create a constructor
+    Create methods to get the attributes
+    Add a toString method to display everything
+}
+
+Restaurant Class {
+    Create attributes
+    Create a constructor
+    Create methods to get the attributes
+    Add a toString method to display everything
+    Create a method to calculate the total amount the customer owes
+}
+
+Main Class {
+    Link the Restaurant and Customer classes here
+    Prompt user to enter customer and restaurant details
+    Create restaurant and customer objects
+    Display the customers details and their order information
+    Account for driver and delivery availability
+    Create a file writer object
+    Write the invoice to the text file
+    Handle any exceptions
+}
+
+Driver Class {
+    Create attributes
+    Create a constructor
+    Create methods to get the attributes
+    Add a toString method to display everything
+}
+
+DriverManager Class {
+    Create a method to read drivers from a file and return a list of Driver objects.
+    Create Array List to store driver objects.
+    Read from drivers.txt.
+    Create new driver object.
+    Handle all errors and return list of driver objects.
+    Create a method to find the driver with the smallest load.
+    Handle case if no suitable driver found.
+}

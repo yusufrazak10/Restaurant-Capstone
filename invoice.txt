@@ -1,0 +1,16 @@
+Order Number 1234
+Customer: Yusuf
+Contact Number: 098 765 5432
+Location: Lenz
+Email: razak@gmail.com
+
+You have ordered the following from Spur in Durban:
+
+2 x Burger (R95.00)
+Special instructions: Nope
+Total: 190.0
+Eugene Santana is nearest to the restaurant and so he will be delivering your order to you at: 
+
+45 Goud
+Lenz
+If you need to contact the restaurant, their number is 098 890 8765
