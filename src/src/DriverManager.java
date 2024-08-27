@@ -68,7 +68,7 @@ class DriverManager {
     // Iterate over each Driver object in the list
     for (Driver driver : drivers) {
       // Check if driver location matches restaurant location
-      if (driver.getDriverLocation().equals(restaurantLocation)) {
+      if (driver.getDriverLocation().equalsIgnoreCase(restaurantLocation)) {
         // If bestDriver is null or the current driver's load is smaller than
         // the bestDriver's load
         if (bestDriver == null
