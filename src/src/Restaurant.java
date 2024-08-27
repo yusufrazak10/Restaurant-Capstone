@@ -44,14 +44,14 @@ class Restaurant {
   }
   
   @Override
-  // toString method to show object.
   public String toString() {
-    String output = "Name: " + restaurantName + "\n";
-    output += "Location: " + restaurantLocation + "\n";
-    output += "Contact Number: " + restaurantContactNumber + "\n";
-    output += "Meals and Prices: " + mealsAndPrices + "\n";
-    output += "Instructions: " + instructions + "\n";
-    return output;
+      StringBuilder output = new StringBuilder();
+      output.append("Name: ").append(restaurantName).append("\n");
+      output.append("Location: ").append(restaurantLocation).append("\n");
+      output.append("Contact Number: ").append(restaurantContactNumber).append("\n");
+      output.append("Meals and Prices: ").append(mealsAndPrices).append("\n");
+      output.append("Instructions: ").append(instructions).append("\n");
+      return output.toString();
   }
 
   // Method to calculate the total amount.
